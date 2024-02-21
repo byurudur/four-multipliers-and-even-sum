@@ -11,7 +11,8 @@ public class Main {
 
         // Importing scanner class for inputs and determining the variables;
         Scanner input = new Scanner(System.in);
-        int number, sum = 0;
+        int number;
+        int sum = 0;
 
         do {
             System.out.println("Please enter a number: ");
@@ -22,7 +23,7 @@ public class Main {
             } else if (number % 4 == 0) {
                 sum += number;
             }
-        }while (number % 2 == 0);
+        }while (true);
 
         // Output of given even and 4-multiplier numbers.
         System.out.println(sum);
